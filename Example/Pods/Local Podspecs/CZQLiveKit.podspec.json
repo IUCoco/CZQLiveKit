@@ -1,0 +1,22 @@
+{
+  "name": "CZQLiveKit",
+  "version": "0.1.0",
+  "summary": "A short description of CZQLiveKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/IUCoco/CZQLiveKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "IUCoco": "czq1157111246@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/IUCoco/CZQLiveKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CZQLiveKit/Classes/**/*"
+}

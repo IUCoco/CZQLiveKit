@@ -1,0 +1,6 @@
+framework module CZQLiveKit {
+  umbrella header "CZQLiveKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
