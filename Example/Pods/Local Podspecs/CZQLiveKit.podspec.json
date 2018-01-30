@@ -1,6 +1,6 @@
 {
   "name": "CZQLiveKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "CZQLiveKit.",
   "description": "直播模块 CZQLiveKit",
   "homepage": "https://github.com/IUCoco/CZQLiveKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/IUCoco/CZQLiveKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,8 +21,7 @@
   "source_files": "CZQLiveKit/Classes/**/*.{h,m}",
   "resource_bundles": {
     "CZQLiveKit": [
-      "CZQLiveKit/Assets/*.png",
-      "CZQLiveKit/Classes/**/*.xib"
+      "CZQLiveKit/Classes/**/*.{storyboard,xib}"
     ]
   },
   "dependencies": {

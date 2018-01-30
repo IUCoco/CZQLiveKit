@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZQLiveKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'CZQLiveKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CZQLiveKit/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-  'CZQLiveKit' => ['CZQLiveKit/Assets/**/*.png', 'CZQLiveKit/Classes/**/*.xib']
+  'CZQLiveKit' => ['CZQLiveKit/Classes/**/*.{storyboard,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

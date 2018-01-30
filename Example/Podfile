@@ -4,12 +4,7 @@ source 'https://github.com/IUCoco/LessonPrivatePodspecComponent.git'
 use_frameworks!
 
 target 'CZQLiveKit_Example' do
-  pod 'CZQLiveKit', :path => '../'
-
-  target 'CZQLiveKit_Tests' do
-    inherit! :search_paths
-
+    pod 'CZQLiveKit', :path => '../'
     pod 'Kiwi'
     pod 'FBSnapshotTestCase'
-  end
 end

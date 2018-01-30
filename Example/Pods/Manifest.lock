@@ -19,7 +19,7 @@ PODS:
     - CZQLessonCategoryKit/Frame (= 0.1.4)
   - CZQLessonCategoryKit/Color (0.1.4)
   - CZQLessonCategoryKit/Frame (0.1.4)
-  - CZQLiveKit (0.1.0):
+  - CZQLiveKit (0.1.1):
     - AFNetworking
     - CZQLessonCategoryKit
     - IHKeyboardAvoiding
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CZQLessonCategoryKit: 8a7a1df7837c0cfebf635381b8a7573d3d96f8f2
-  CZQLiveKit: 2e9405e9e14b6fadb74953cce1776b9f534c5c58
+  CZQLiveKit: 9b98026a5ad13516eca04d270b578fcdc66924a7
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   IHKeyboardAvoiding: d1063551a2bed47cdbeab255e3aa5d7847d7efa8
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
@@ -68,6 +68,6 @@ SPEC CHECKSUMS:
   StarscreamSocketIO: b56993332d3cd74885a7486e183ff0cd9541b3f3
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: c0031e36bc28cf93afd0bd3995ccad8ebaacd770
+PODFILE CHECKSUM: 16cb189750ea0fdaaf8dc608d86bc7cc57ab5321
 
 COCOAPODS: 1.3.1
