@@ -102,10 +102,28 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CZQLessonCategoryKit/CZQLessonCategoryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CZQLiveKit/CZQLiveKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CZQLessonCategoryKit/CZQLessonCategoryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CZQLiveKit/CZQLiveKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
